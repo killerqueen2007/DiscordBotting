@@ -6,7 +6,7 @@ Guild_ID = ""
 User_ID= ""
 
 def send_command():
-    url = f"https://discord.com/api/v9/guilds/{Guild_ID}/members/{User_ID}?reason="
+    url = f"https://discord.com/api/v9/guilds/{Guild_ID}/members/{User_ID}"
     headers = {
         "Authorization": "DISCORD TOKEN",
         "Content-Type": "application/json"
